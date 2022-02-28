@@ -9,6 +9,7 @@ The action also provides three return values:
 1. A microtime() timestamp from before the delay begins;
 2. A microtime() timestamp from after the delay completes
 3. A calculation of the duration of the delay. 
+
 These values are available to subsequent rules actions.
 
 Although the delay can be implemented for any number of reasons, the original
