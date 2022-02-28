@@ -27,7 +27,8 @@ function. That function accepts a single parameter (time in microseconds),
 which is provided as an integer. In general, PHP integers have a maximum value
 of about two billion, which equates to 2,000 seconds.
 
-This module is a port from a Drupal 7 [sandbox project of the same name](https://www.drupal.org/sandbox/jweirather/2603990)
+This module is a port from a Drupal 7
+[sandbox project of the same name](https://www.drupal.org/sandbox/jweirather/2603990)
 available as a zip file from that page. There is no history to import.
 
 Installation
@@ -61,8 +62,10 @@ Current Maintainers
 Credits
 -------
 
-- Ported to Backdrop CMS by [Martin Price](https://github.com/yorkshire-pudding).
-- Originally written for Drupal by [Joe Weirather](https://github.com/jweirather).
+- Ported to Backdrop CMS by
+  [Martin Price](https://github.com/yorkshire-pudding).
+- Originally written for Drupal by
+  [Joe Weirather](https://github.com/jweirather).
 
 License
 -------
