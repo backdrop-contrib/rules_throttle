@@ -1,0 +1,6 @@
+type = module
+name = Rules Throttle
+description = Provides a delay action to rules, to help reduce resource usage.
+backdrop = 1.x
+package = Rules
+dependencies[] = rules

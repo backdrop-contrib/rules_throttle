@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Provides a timer-based throttle to rules, to help reduce the rate of
+ * resource calls/usage. Based on PHP usleep function.
+ */
+
+/**
+ * This is a placeholder file for the rules_throttle module. The code and 
+ * comments for the rules action are contained in the rules_throttle.rules.inc
+ * file.
+ */
