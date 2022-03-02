@@ -6,8 +6,8 @@ action into a rule set. The delay can be specified by the administrator in
 millionths of a second, up to a theoretical maximum of 2,000 seconds [1].
 
 The action also provides three return values:
-1. A microtime() timestamp from before the delay begins;
-2. A microtime() timestamp from after the delay completes
+1. A microtime( ) timestamp from before the delay begins;
+2. A microtime( ) timestamp from after the delay completes
 3. A calculation of the duration of the delay. 
 
 These values are available to subsequent rules actions.
