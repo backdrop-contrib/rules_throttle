@@ -5,8 +5,10 @@
  * Rules Throttle creates a simple, timer-based delay mechanism for reducing
  * resource usage. For example, implementing a short delay between requests to
  * third pary APIs, or to add a delay between outgoing system emails.
+ *
  * The action returns "before" and "after" timestamps, and calculated total
  * duration.
+ *
  * This file contains the code for that rules action.
  */
 
@@ -14,8 +16,8 @@
  * Implement hook_rules_action_info().
  *
  * Allows the administrator to specify a single integer value representing the
- * number of microseconds (millionths of a second) to $delay processing.
- * For more info, see the PHP "usleep" function.
+ * number of microseconds (millionths of a second) to $delay processing. For
+ * more info, see the PHP "usleep" function.
  */
 function rules_throttle_rules_action_info() {
   return array(
@@ -51,13 +53,14 @@ function rules_throttle_rules_action_info() {
   );
 }
 
-/* This callback uses the php "usleep" function to implement the delay,
- * using the $delay parameter provided through rules' UI (above)
+/**
+ * This callback uses the php "usleep" function to implement the delay,
+ * using the $delay parameter provided through rules' UI (above).
  * As true for usleep, return values are rounded to millionths of a second.
  */
 function rules_throttle_delay_timer($delay) {
   $time_before = round(microtime(true), 6);
-  // Convert provided integer to absolute (positive) value, usleep ($delay)
+  // Convert provided integer to absolute (positive) value, usleep ($delay).
   usleep(abs($delay));
   $time_after = round(microtime(true), 6);
   $duration = round(($time_after-$time_before), 6);

@@ -32,6 +32,11 @@ This module is a port from a Drupal 7
 [sandbox project of the same name](https://www.drupal.org/sandbox/jweirather/2603990)
 available as a zip file from that page. There is no history to import.
 
+Dependencies
+------------
+
+- Rules
+
 Installation
 ------------
 
