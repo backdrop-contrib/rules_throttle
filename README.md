@@ -8,7 +8,7 @@ millionths of a second, up to a theoretical maximum of 2,000 seconds [1].
 The action also provides three return values:
 1. A microtime( ) timestamp from before the delay begins;
 2. A microtime( ) timestamp from after the delay completes
-3. A calculation of the duration of the delay. 
+3. A calculation of the duration of the delay.
 
 These values are available to subsequent rules actions.
 
@@ -36,6 +36,7 @@ Dependencies
 ------------
 
 - Rules
+- Entity Token (required to return values from the module)
 
 Installation
 ------------
@@ -62,19 +63,19 @@ https://github.com/backdrop-contrib/rules_throttle/issues.
 Current Maintainers
 -------------------
 
-- [Martin Price](https://github.com/yorkshire-pudding)
+- [Martin Price](https://github.com/yorkshire-pudding) - [System Horizons](https://www.systemhorizons.co.uk)
 
 
 Credits
 -------
 
 - Ported to Backdrop CMS by
-  [Martin Price](https://github.com/yorkshire-pudding).
+  [Martin Price](https://github.com/yorkshire-pudding) - [System Horizons](https://www.systemhorizons.co.uk).
 - Originally written for Drupal by
   [Joe Weirather](https://github.com/jweirather).
 
 License
 -------
 
-This project is GPL v2 software. 
+This project is GPL v2 software.
 See the LICENSE.txt file in this directory for complete text.
