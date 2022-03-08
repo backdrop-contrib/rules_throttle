@@ -36,7 +36,6 @@ Dependencies
 ------------
 
 - Rules
-- Entity Token (required to return values from the module)
 
 Installation
 ------------
